@@ -230,6 +230,8 @@ img {
     background-position: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    max-width: 1600px;
+    margin: auto;
 }
 
 .page-heading {
@@ -362,7 +364,7 @@ img {
 }
 
 .team-content {
-    padding-top: 30px;
+    padding: 30px 32px 30px 32px;
 }
 
 .team-members {
@@ -401,10 +403,6 @@ img {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-}
-
-.team-links {
-    padding: 0px 32px 30px 32px;
 }
 
 .team-ul {
