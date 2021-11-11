@@ -665,9 +665,9 @@ img {
 }
 
 .our-work-heading {
-    position: relative;
     display: block;
     text-decoration: none;
+    position: relative;
 }
 
 .our-work-heading:hover {
@@ -687,20 +687,23 @@ img {
     margin-left: 30px;
 }
 
-.our-work-img {
+.our-work-heading:hover .our-work-class {
+    opacity: 1;
+}
+
+.our-work-class {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
+    opacity: 0;
+    top: 0px;
     background-color: rgba(33, 150, 243, 0.9);
+}
+
+.our-work-class p {
+    padding: 63px 24px;
     font-size: 18px;
     Line-height: 1.6;
     Letter-spacing: 0.03em;
-    color: var(--pirmary-background-color);
-}
-
-.our-work-img p {
-    padding: 63px 24px;
+    color: var(--pirmary-background-color)
 }
 
 .poster-title {
